@@ -1,4 +1,4 @@
-#Resource Health API
+# Resource Health API
 
 Azure resource health APIs expose the health of the individual Azure resources and provide actionable guidance to troubleshoot problems that, otherwise, would result in extended troubleshooting at the application level.
 
@@ -6,7 +6,7 @@ These APIs provide information which is more granular than the Service Health Da
 
 Read more about Resoure health here - https://azure.microsoft.com/en-in/blog/reduce-troubleshooting-time-with-azure-resource-health/
 
-#What does this code do?
+# What does this code do?
 
 The code in this repository is an Node.js based Azure Function which works at the Azure subscription level to look for the resources who have been marked Unhealthy, Unknown or Stopped. if any such resource are found, the information about the resource name, type and status information is sent to the users using the SendGrid APIs.
 
